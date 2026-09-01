@@ -1,0 +1,9 @@
+{
+    "zoomify_gui_category_behaviour": {
+        "zoomify_gui_zoomintransition_name": 0,
+        "zoomify_gui_zoomouttransition_name": 0
+    },
+    "zoomify_gui_category_scrolling": {
+        "zoomify_gui_scrollzoomsmoothness_name": 0
+    }
+}

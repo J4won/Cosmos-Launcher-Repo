@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///C:/Users/%EC%9E%AC%EC%9B%90/Documents/Dalyu%20Client/ROOT/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "<LINK TO RSS FEED>",
+    "discord": {
+      "clientId": "1544279784622919790",
+      "smallImageText": "Dalyu Launcher",
+      "smallImageKey": "icon"
+    }
+  }
+}

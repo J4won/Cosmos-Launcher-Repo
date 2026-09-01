@@ -1,0 +1,43 @@
+{
+  "selections": {
+    "mode": "SIMPLE"
+  },
+  "placements": {},
+  "schematic_projects_manager": {},
+  "operation_mode": "SCHEMATIC_PLACEMENT",
+  "render_range": {
+    "mode": "LAYER_RANGE",
+    "axis": "y",
+    "layer_single": 0,
+    "layer_above": 0,
+    "layer_below": 0,
+    "layer_range_min": 0,
+    "layer_range_max": 97,
+    "hotkey_range_min": false,
+    "hotkey_range_max": true
+  },
+  "area_simple": {
+    "name": "포탈라",
+    "current": "포탈라",
+    "boxes": [
+      {
+        "pos1": [
+          12671,
+          209,
+          -4035
+        ],
+        "pos2": [
+          12693,
+          227,
+          -4014
+        ],
+        "name": "포탈라"
+      }
+    ]
+  },
+  "tool_mode_data": {
+    "delete": {
+      "use_placement": false
+    }
+  }
+}
