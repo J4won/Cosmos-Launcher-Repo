@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1544279784622919790",
@@ -12,7 +12,7 @@
       "name": "planetearth (Minecraft 1.20.1)",
       "description": "planetearth Running Minecraft 1.20.1 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.1.0",
+      "version": "1.0.0",
       "address": "planetearth.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -325,13 +325,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.92.11+1.20.1@jar",
+          "id": "generated.fabricmod:fabric-api:0.92.12+1.20.1@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2137144,
-            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/required/fabric-api-0.92.11+1.20.1.jar",
-            "MD5": "480888e4128874e4be052b0e7ee81697"
+            "size": 2137232,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/required/fabric-api-0.92.12+1.20.1.jar",
+            "MD5": "0e405ca544d986fb65f3f524e393c11a"
           }
         },
         {
