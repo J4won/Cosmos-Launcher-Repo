@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1544279784622919790",
@@ -12,7 +12,7 @@
       "name": "planetearth (Minecraft 1.20.1)",
       "description": "planetearth Running Minecraft 1.20.1 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.0",
+      "version": "1.1.0",
       "address": "planetearth.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -182,6 +182,19 @@
           }
         },
         {
+          "id": "de.johni0702.minecraft:bobby:5.0.1.1@jar",
+          "name": "Bobby",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 800102,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/optionalon/bobby-5.0.1.1.jar",
+            "MD5": "db1d30de4a0123ad13cd92ceefee7456"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.fabricmod:borderlessmining:1.1.8+1.20.1@jar",
           "name": "Borderless Mining",
           "type": "FabricMod",
@@ -242,6 +255,16 @@
           }
         },
         {
+          "id": "mainmenu.modid:cosmos-main-menu:1.0.0@jar",
+          "name": "Cosmos Main Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 99111,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/required/cosmos-main-menu-1.0.0.jar",
+            "MD5": "fd8d51eeff6d590228ced30c062c5b99"
+          }
+        },
+        {
           "id": "com.minenash.customhud:custom_hud:3.1.4+1.20.1@jar",
           "name": "CustomHud",
           "type": "FabricMod",
@@ -259,19 +282,6 @@
             "size": 337545,
             "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/required/Debugify-1.20.1+2.0.jar",
             "MD5": "39e6ead07cd3ce225fb24775e0cb0341"
-          }
-        },
-        {
-          "id": "com.seibel:distanthorizons:3.2.0-b@jar",
-          "name": "Distant Horizons",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 29561297,
-            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/optionalon/DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
-            "MD5": "e3863fee862ff2228786aa444e54adfe"
-          },
-          "required": {
-            "value": false
           }
         },
         {
