@@ -1976,14 +1976,212 @@
           }
         },
         {
-          "id": "resourcepack:1986",
-          "name": "1986",
-          "type": "ResourcePack",
+          "id": "!1986.zip",
+          "name": "!1986.zip",
+          "type": "File",
           "artifact": {
-            "size": 0,
-            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/1986.zip",
-            "MD5": "",
-            "path": "resourcepacks/1986.zip"
+            "size": 2233739,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/!1986.zip",
+            "MD5": "9405d349f75171e5cc278c456864db6e",
+            "path": "resourcepacks/!1986.zip"
+          }
+        },
+        {
+          "id": "!NetixFault.zip",
+          "name": "!NetixFault.zip",
+          "type": "File",
+          "artifact": {
+            "size": 73073358,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/!NetixFault.zip",
+            "MD5": "56b17a68cfa2195d4a5a7e5c487e6c01",
+            "path": "resourcepacks/!NetixFault.zip"
+          }
+        },
+        {
+          "id": "asdf.zip",
+          "name": "asdf.zip",
+          "type": "File",
+          "artifact": {
+            "size": 105161,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/asdf.zip",
+            "MD5": "accc089c60118f62e67b749541342414",
+            "path": "resourcepacks/asdf.zip"
+          }
+        },
+        {
+          "id": "Chat Reporting Helper.zip",
+          "name": "Chat Reporting Helper.zip",
+          "type": "File",
+          "artifact": {
+            "size": 57765,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/Chat%20Reporting%20Helper.zip",
+            "MD5": "66797c80ce6b9abf9ae63f0fab7f285c",
+            "path": "resourcepacks/Chat Reporting Helper.zip"
+          }
+        },
+        {
+          "id": "Daggers-1.1.0+1.14-latest.zip",
+          "name": "Daggers-1.1.0+1.14-latest.zip",
+          "type": "File",
+          "artifact": {
+            "size": 4520,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/Daggers-1.1.0+1.14-latest.zip",
+            "MD5": "0f4dfe795e34ba411457824c5038db37",
+            "path": "resourcepacks/Daggers-1.1.0+1.14-latest.zip"
+          }
+        },
+        {
+          "id": "FriendlyKorean_1.0_by_Irochi.zip",
+          "name": "FriendlyKorean_1.0_by_Irochi.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3842,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/FriendlyKorean_1.0_by_Irochi.zip",
+            "MD5": "55a2cf0c652c9124a1f8cf6f6bb4a30f",
+            "path": "resourcepacks/FriendlyKorean_1.0_by_Irochi.zip"
+          }
+        },
+        {
+          "id": "Irochi's Pick Addon - No Fishing Hook.zip",
+          "name": "Irochi's Pick Addon - No Fishing Hook.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2216,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/Irochi's%20Pick%20Addon%20-%20No%20Fishing%20Hook.zip",
+            "MD5": "595b4b5fe397ce176267905d35443f37",
+            "path": "resourcepacks/Irochi's Pick Addon - No Fishing Hook.zip"
+          }
+        },
+        {
+          "id": "Irochi's Pick Addon - No Horse Head.zip",
+          "name": "Irochi's Pick Addon - No Horse Head.zip",
+          "type": "File",
+          "artifact": {
+            "size": 25194,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/Irochi's%20Pick%20Addon%20-%20No%20Horse%20Head.zip",
+            "MD5": "a4353e908a20ccf1442e567b96dd4d31",
+            "path": "resourcepacks/Irochi's Pick Addon - No Horse Head.zip"
+          }
+        },
+        {
+          "id": "Irochi's Pick.zip",
+          "name": "Irochi's Pick.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2432,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/Irochi's%20Pick.zip",
+            "MD5": "02c40edff5c8cb6e72278e4c6822760c",
+            "path": "resourcepacks/Irochi's Pick.zip"
+          }
+        },
+        {
+          "id": "LowOnFire_1.20.1.zip",
+          "name": "LowOnFire_1.20.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 49395,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/LowOnFire_1.20.1.zip",
+            "MD5": "3d757e79fa0d5ecdb653a40b16607f4a",
+            "path": "resourcepacks/LowOnFire_1.20.1.zip"
+          }
+        },
+        {
+          "id": "Mc둥근모.zip",
+          "name": "Mc둥근모.zip",
+          "type": "File",
+          "artifact": {
+            "size": 461188,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/Mc%EB%91%A5%EA%B7%BC%EB%AA%A8.zip",
+            "MD5": "cb47d30db37d5a16dcaa69c104bfc98f",
+            "path": "resourcepacks/Mc둥근모.zip"
+          }
+        },
+        {
+          "id": "Shield Corrections [Regular].zip",
+          "name": "Shield Corrections [Regular].zip",
+          "type": "File",
+          "artifact": {
+            "size": 778108,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/Shield%20Corrections%20[Regular].zip",
+            "MD5": "cefb43b597c3f14559b6edd18b50bbc4",
+            "path": "resourcepacks/Shield Corrections [Regular].zip"
+          }
+        },
+        {
+          "id": "SodiumTranslations.zip",
+          "name": "SodiumTranslations.zip",
+          "type": "File",
+          "artifact": {
+            "size": 185135,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/SodiumTranslations.zip",
+            "MD5": "b6951cccf74af23fca844dcdbc888f46",
+            "path": "resourcepacks/SodiumTranslations.zip"
+          }
+        },
+        {
+          "id": "Subtly+Glowing+Ores+1.20.zip",
+          "name": "Subtly+Glowing+Ores+1.20.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14150,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/Subtly+Glowing+Ores+1.20.zip",
+            "MD5": "e70430264a68a554f5a501a31b87796c",
+            "path": "resourcepacks/Subtly+Glowing+Ores+1.20.zip"
+          }
+        },
+        {
+          "id": "XK redstone display 26.1.5.zip",
+          "name": "XK redstone display 26.1.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1406832,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/XK%20redstone%20display%2026.1.5.zip",
+            "MD5": "9f1c489fb5f91ca439d79787aa42cdaf",
+            "path": "resourcepacks/XK redstone display 26.1.5.zip"
+          }
+        },
+        {
+          "id": "Xray_Ultimate_1.21_v5.2.2.zip",
+          "name": "Xray_Ultimate_1.21_v5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1260184,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/Xray_Ultimate_1.21_v5.2.2.zip",
+            "MD5": "16072937524aeaa189ece4a6a04dda9c",
+            "path": "resourcepacks/Xray_Ultimate_1.21_v5.2.2.zip"
+          }
+        },
+        {
+          "id": "김유신.zip",
+          "name": "김유신.zip",
+          "type": "File",
+          "artifact": {
+            "size": 323115,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/resourcepacks/%EA%B9%80%EC%9C%A0%EC%8B%A0.zip",
+            "MD5": "ec25a098a1ad2157d6fa876532c9e7e8",
+            "path": "resourcepacks/김유신.zip"
+          }
+        },
+        {
+          "id": "complementary-reimagined.pw.toml",
+          "name": "complementary-reimagined.pw.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1637,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/shaderpacks/complementary-reimagined.pw.toml",
+            "MD5": "c90f52d1a29106ff75c1e69d015b7735",
+            "path": "shaderpacks/complementary-reimagined.pw.toml"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.8.1.zip",
+          "name": "ComplementaryReimagined_r5.8.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 546925,
+            "url": "https://j4won.github.io/Dalyu-Launcher-Repo/servers/planetearth-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+            "MD5": "8dbb914ed233d6e8183ce34eb26beaab",
+            "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
           }
         }
       ]
