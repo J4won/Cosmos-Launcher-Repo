@@ -259,9 +259,9 @@
           "name": "Cosmos Main Menu",
           "type": "FabricMod",
           "artifact": {
-            "size": 99111,
+            "size": 99110,
             "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/required/cosmos-main-menu-1.0.0.jar",
-            "MD5": "fd8d51eeff6d590228ced30c062c5b99"
+            "MD5": "e8351841a86703f2237ad378ecd801cc"
           }
         },
         {
