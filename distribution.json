@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1544279784622919790",
@@ -563,16 +563,6 @@
             "size": 63980,
             "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/DOSE.KR-1.21.4/fabricmods/required/midnightlib-1.7.3-fabric+1.21.4.jar",
             "MD5": "facd1056707a27590787e7f6b96770a8"
-          }
-        },
-        {
-          "id": "generated.fabricmod:mod-loading-screen:1.0.5@jar",
-          "name": "Mod Loading Screen",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1288845,
-            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/DOSE.KR-1.21.4/fabricmods/required/mod-loading-screen-1.0.5.jar.disabled",
-            "MD5": "194e77e23269db24c45a74695e633fc8"
           }
         },
         {
@@ -1465,16 +1455,6 @@
             "size": 36039,
             "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/required/mixintrace-1.1.1+1.17.jar",
             "MD5": "25673336ece740d8127ae7525bc0cd4f"
-          }
-        },
-        {
-          "id": "generated.fabricmod:mod-loading-screen:1.0.5@jar",
-          "name": "Mod Loading Screen",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1288845,
-            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/required/mod-loading-screen-1.0.5.jar",
-            "MD5": "194e77e23269db24c45a74695e633fc8"
           }
         },
         {
