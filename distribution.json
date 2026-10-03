@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
+  "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1544279784622919790",
@@ -1581,13 +1581,13 @@
           }
         },
         {
-          "id": "kr.planetearth.minimap:planetearth_minimap:1.0.15@jar",
+          "id": "kr.planetearth.minimap:planetearth_minimap:1.0.18@jar",
           "name": "PlanetMap",
           "type": "FabricMod",
           "artifact": {
-            "size": 2942243,
-            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/optionalon/planetmap-mc1.20.1-1.0.15.jar",
-            "MD5": "6ef3a1274c2e1b54d49accc5f46e3952"
+            "size": 2966913,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/optionalon/planetmap-1.20.1-lil0ri.jar",
+            "MD5": "acee68a6b6f76dca7b9bc7c3bda27fa1"
           },
           "required": {
             "value": false
@@ -1711,6 +1711,116 @@
             "size": 871089,
             "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/required/zoomify-2.15.2+1.20.1.jar",
             "MD5": "764f1cd15375affb70b5abb277847b4e"
+          }
+        },
+        {
+          "id": "isxander-main-menu-credits.json",
+          "name": "isxander-main-menu-credits.json",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/isxander-main-menu-credits.json",
+            "MD5": "8b2128215c659b2a9f041c415a10d3c3",
+            "path": "config/isxander-main-menu-credits.json"
+          }
+        },
+        {
+          "id": "appleskin.json5",
+          "name": "appleskin.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1315,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/yosbr/config/appleskin.json5",
+            "MD5": "23f118aa59e75bc6a1e06f0684401aa7",
+            "path": "config/yosbr/config/appleskin.json5"
+          }
+        },
+        {
+          "id": "profile1.txt",
+          "name": "profile1.txt",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/yosbr/config/custom-hud/profile1.txt",
+            "MD5": "91378239195169c1d6629e03c60f7f8c",
+            "path": "config/yosbr/config/custom-hud/profile1.txt"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/yosbr/config/immediatelyfast.json",
+            "MD5": "ae5071f3bfe4a2b5e2455096a2a4619e",
+            "path": "config/yosbr/config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "inventoryhud.json",
+          "name": "inventoryhud.json",
+          "type": "File",
+          "artifact": {
+            "size": 1702,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/yosbr/config/inventoryhud.json",
+            "MD5": "99a2567e0b95f9219d9a78da21c8ee7c",
+            "path": "config/yosbr/config/inventoryhud.json"
+          }
+        },
+        {
+          "id": "nvidium-config.json",
+          "name": "nvidium-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 32,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/yosbr/config/nvidium-config.json",
+            "MD5": "ea914fab72c61508f820918a488dccd4",
+            "path": "config/yosbr/config/nvidium-config.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 53,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/yosbr/config/sodium-extra-options.json",
+            "MD5": "70318c42d0aba9691a8fce077fd18c5f",
+            "path": "config/yosbr/config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "timestamp_chat.toml",
+          "name": "timestamp_chat.toml",
+          "type": "File",
+          "artifact": {
+            "size": 20,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/yosbr/config/timestamp_chat.toml",
+            "MD5": "5b95e3519ecb5914c7a8db66fa0cd45d",
+            "path": "config/yosbr/config/timestamp_chat.toml"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 243,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/yosbr/config/zoomify.json",
+            "MD5": "bd449f505a8e7960e76c1b127581c3cc",
+            "path": "config/yosbr/config/zoomify.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2010,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/files/config/yosbr/options.txt",
+            "MD5": "3bd253bcf57631978b40cbc860b9f4e4",
+            "path": "config/yosbr/options.txt"
           }
         },
         {
