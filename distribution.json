@@ -1,5 +1,5 @@
 {
-  "version": "3.3.0",
+  "version": "3.6.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1544279784622919790",
@@ -872,7 +872,7 @@
       "name": "planetearth (Minecraft 1.20.1)",
       "description": "planetearth Running Minecraft 1.20.1 (Fabric v0.19.3)",
       "icon": null,
-      "version": "2.0.0",
+      "version": "3.5.0",
       "address": "planetearth.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
