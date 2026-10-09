@@ -1,5 +1,5 @@
 {
-  "version": "3.6.0",
+  "version": "4.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1544279784622919790",
@@ -1578,6 +1578,19 @@
             "size": 34134,
             "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/required/perspektive-1.3.3.jar",
             "MD5": "0c2801853081325e5150ae7c4253a975"
+          }
+        },
+        {
+          "id": "kr.planetearth.minimap:planetearth_minimap:2.0.8@jar",
+          "name": "PlanetMap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7808588,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/planetearth-1.20.1/fabricmods/optionalon/planetmap-1.20.1-lil0ri.jar",
+            "MD5": "86e18930f65ed6db03743cf32c0c8f20"
+          },
+          "required": {
+            "value": false
           }
         },
         {
