@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0",
+  "version": "5.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1544279784622919790",
@@ -7,6 +7,1160 @@
     "smallImageKey": "icon"
   },
   "servers": [
+    {
+      "id": "craft-1.20.1",
+      "name": "craft (Minecraft 1.20.1)",
+      "description": "craft Running Minecraft 1.20.1 (Fabric v0.19.3)",
+      "icon": "data:image/png;base64,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"l,
+      "version": "1.0.0",
+      "address": "craftm.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2862,
+                "MD5": "cd24a6acdfbb2a7d8af1950e0aa9cf31",
+                "url": "https://j4won.github.io/Cosmos-Launcher-Repo/repo/versions/1.20.1-fabric-0.19.3/1.20.1-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://j4won.github.io/Cosmos-Launcher-Repo/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://j4won.github.io/Cosmos-Launcher-Repo/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://j4won.github.io/Cosmos-Launcher-Repo/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://j4won.github.io/Cosmos-Launcher-Repo/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://j4won.github.io/Cosmos-Launcher-Repo/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://j4won.github.io/Cosmos-Launcher-Repo/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://j4won.github.io/Cosmos-Launcher-Repo/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "de.guntram.mcmod:antighost:1.20-fabric0.83.0-1.1.5@jar",
+          "name": "AntiGhost",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 47162,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/antighost-1.20-fabric0.83.0-1.1.5.jar",
+            "MD5": "342f68c03c210e9769f9d74b809a34e0"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.2+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1097240,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/optionalon/appleskin-fabric-mc1.20.1-2.5.2.jar",
+            "MD5": "0f5aeb43d6949ddad88449ad29884b2b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:badoptimizations:2.4.1@jar",
+          "name": "BadOptimizations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 460234,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/BadOptimizations-2.4.1-1.20.1.jar",
+            "MD5": "f8dd994ef309213c5dae5cbeef53123c"
+          }
+        },
+        {
+          "id": "bettercommandblockui.main:bettercommandblockui:0.5.2@jar",
+          "name": "BetterCommandBlockUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 175536,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/optionalon/bettercommandblockui-0.5.2-1.20.jar",
+            "MD5": "72fa02d1be7217583785be5ca31b9a29"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:bettermounthud:1.2.2@jar",
+          "name": "Better Mount HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21587,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/bettermounthud-1.2.2.jar",
+            "MD5": "fdd255bd204f7d84850fd31ba687ad01"
+          }
+        },
+        {
+          "id": "com.vladmarica:betterpingdisplay:1.1.1@jar",
+          "name": "Better Ping Display",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16226,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/BetterPingDisplay-Fabric-1.20.1-1.1.1.jar",
+            "MD5": "40daa668fb18e365eef2b71138186201"
+          }
+        },
+        {
+          "id": "de.johni0702.minecraft:bobby:5.0.1.1@jar",
+          "name": "Bobby",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 800102,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/optionalon/bobby-5.0.1.1.jar",
+            "MD5": "db1d30de4a0123ad13cd92ceefee7456"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:borderlessmining:1.1.8+1.20.1@jar",
+          "name": "Borderless Mining",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 118295,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/borderless-mining-1.1.8+1.20.1.jar",
+            "MD5": "e35125dd22a96775fea86c1acef59a9a"
+          }
+        },
+        {
+          "id": "me.cael:capes:1.5.2+1.20@jar",
+          "name": "Capes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 170082,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/capes-1.5.2+1.20-fabric.jar",
+            "MD5": "312590823dd12dc676f8908be2e8396d"
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.2.2+1.20.1@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 395586,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/citresewn-1.2.2+1.20.1.jar",
+            "MD5": "e7cd058b8f1866b8b599abdcc830b109"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.136@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1172214,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
+            "MD5": "45d8bada7797af61d1f5543313b1f9f0"
+          }
+        },
+        {
+          "id": "generated.fabricmod:completeconfig:2.5.2@jar",
+          "name": "CompleteConfig",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 734901,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/completeconfig-2.5.2.jar",
+            "MD5": "102089d499c5af81ecbf9719bd98d44d"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.20.1@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1016063,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/continuity-3.0.0+1.20.1.jar",
+            "MD5": "d180631d4db7588393f1d0c280593bc3"
+          }
+        },
+        {
+          "id": "mainmenu.modid:cosmos-main-menu:1.0.0@jar",
+          "name": "Cosmos Main Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 99110,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/cosmos-main-menu-1.0.0.jar",
+            "MD5": "e8351841a86703f2237ad378ecd801cc"
+          }
+        },
+        {
+          "id": "com.minenash.customhud:custom_hud:3.1.4+1.20.1@jar",
+          "name": "CustomHud",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 232956,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/custom_hud-3.1.4+1.20.1.jar",
+            "MD5": "72c3fdb7759cdd4c13dbfabb396e8bfe"
+          }
+        },
+        {
+          "id": "dev.isxander:debugify:1.20.1+2.0@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 337545,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/Debugify-1.20.1+2.0.jar",
+            "MD5": "39e6ead07cd3ce225fb24775e0cb0341"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.11.4@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 223261,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/dynamic-fps-3.11.4+minecraft-1.20.0-fabric.jar",
+            "MD5": "fa6fd5fb937427830cf09b7708fcdc65"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.9+1.20@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 490690,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/enhancedblockentities-0.9+1.20.jar",
+            "MD5": "bfc7a62a2834f824bb426b73f383e0cb"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.10.5@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1592562,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/entityculling-fabric-1.10.5-mc1.20.1.jar",
+            "MD5": "ca868a97c2f22a66bec9f5f5818d5c34"
+          }
+        },
+        {
+          "id": "dev.tr7zw:exordium:1.4.2@jar",
+          "name": "Exordium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 220776,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/exordium-fabric-1.4.2-mc1.20.1.jar",
+            "MD5": "1c8acf731c0aafa67bc824ff413504c4"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.12+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2137232,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/fabric-api-0.92.12+1.20.1.jar",
+            "MD5": "0e405ca544d986fb65f3f524e393c11a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.13+kotlin.2.4.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8076363,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar",
+            "MD5": "b70470268be8c74a10e10b24a2bf7df6"
+          }
+        },
+        {
+          "id": "io.github.amerebagatelle:fabricskyboxes:0.7.3+mc1.20.1@jar",
+          "name": "FabricSkyBoxes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 207272,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/fabricskyboxes-0.7.3+mc1.20.1.jar",
+            "MD5": "a3e21b6bb94f98d3b5d29c77d1ad703a"
+          }
+        },
+        {
+          "id": "io.github.ultimateboomer.nofade:fadeless:1.0.1@jar",
+          "name": "Fadeless",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7876,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/fadeless-1.0.1.jar",
+            "MD5": "1b17811bcc7052b8fc38a4c44bcf74a9"
+          }
+        },
+        {
+          "id": "me.fallenbreath:fastipping:1.0.8@jar",
+          "name": "Fast IP Ping",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10378,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/fast-ip-ping-v1.0.8-mc1.20.4-fabric.jar",
+            "MD5": "d60358e1374736970da2d707edb73f5c"
+          }
+        },
+        {
+          "id": "com.kingcontaria:fastquit:3.0.0+1.20+@jar",
+          "name": "FastQuit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79306,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/fastquit-3.0.0+1.20+.jar",
+            "MD5": "a1b2847e248207157f5bbe7285b41927"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:forcecloseworldloadingscreen:2.1.1@jar",
+          "name": "Kennytv's epic force close loading screen mod for Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 111799,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/forcecloseloadingscreen-2.1.1.jar",
+            "MD5": "656f9d1259f3539e16823d7250d6ccfe"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fsb-interop:1.3.6+mc1.20.1-build.50@jar",
+          "name": "FabricSkyBoxes Interop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49495,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/fsb-interop-1.3.6+mc1.20.1-build.50.jar",
+            "MD5": "87fa8fe095bad30e9ca15ceb660b5e45"
+          }
+        },
+        {
+          "id": "generated.fabricmod:gamemenuremovegfarb:2.1.2@jar",
+          "name": "Game Menu Remove GFARB",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 34571,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/gamemenuremovegfarb-fabric-mc1.19.4-2.1.2.jar",
+            "MD5": "5a309e2a14c25a6e5f77213a831327bc"
+          }
+        },
+        {
+          "id": "io.github.sjouwer:gammautils:1.7.16@jar",
+          "name": "Gamma Utils",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57562,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/Gamma-Utils-1.7.16-mc1.20.1.jar",
+            "MD5": "7587264df2067fbd3ccc56da5544adea"
+          }
+        },
+        {
+          "id": "ru.vidtu:ias:9.0.7+1.20.1-fabric@jar",
+          "name": "In-Game Account Switcher",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 306743,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/IAS-9.0.7+1.20.1-fabric.jar",
+            "MD5": "9d08543a892876a3f0ff6fc581531ce6"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.5.5+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 348818,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
+            "MD5": "16c0232c08af7c32737295253d810ff7"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.36+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105382,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/indium-1.0.36+mc1.20.1.jar",
+            "MD5": "21cefdaa742e1f31ded4f85f55a0f41c"
+          }
+        },
+        {
+          "id": "dlovin.inventoryhud:inventoryhud:3.4.26@jar",
+          "name": "Inventory HUD +",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 237573,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/inventoryhud.fabric.1.20.1-3.4.26.jar",
+            "MD5": "d5e3049c04f617683a5e0013902e2d8b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2726899,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.6+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 625668,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/koreanpatch-fabric-1.9.6+mc1.20.1.jar",
+            "MD5": "52830b944422b8390b4163bd1a6f16ba"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:4.4.0+1.20.1@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1114373,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/lambdynamiclights-4.4.0+1.20.1.jar",
+            "MD5": "9ebce39aa2ecdb9d32fce5d69674a9b7"
+          }
+        },
+        {
+          "id": "dev.chachy.lazylanguageloader:lazy-language-loader:0.3.3@jar",
+          "name": "Lazy-language-loader",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 26621,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/lazy-language-loader-0.3.3.jar",
+            "MD5": "142e2fbfa25b5b8321ad230f4f21f113"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc:libipn:4.0.2@jar",
+          "name": "LibIPN",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 702814,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/libIPN-fabric-1.20-4.0.2.jar",
+            "MD5": "8e2cc58f5a9149549f544d4a27224646"
+          }
+        },
+        {
+          "id": "fi.dy.masa:litematica:0.15.4@jar",
+          "name": "Litematica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 923876,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/optionalon/litematica-fabric-1.20.1-0.15.4.jar",
+            "MD5": "4f716692227e2e5290aa862984104316"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 691483,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.4.jar",
+            "MD5": "01fba3b3678fadc34d4d2878031762cd"
+          }
+        },
+        {
+          "id": "net.lunade.fastanim:faster_entity_animations:1.6@jar",
+          "name": "FastAnim",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 118384,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/lunade-fastanim-1.6-1.20.jar",
+            "MD5": "c405cb79fcb03b2762f9f14e5cb047e2"
+          }
+        },
+        {
+          "id": "dev.isxander.mainmenucredits:isxander-main-menu-credits:1.1.2@jar",
+          "name": "Main Menu Credits",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14340,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/main-menu-credits-1.1.2.jar",
+            "MD5": "ca68af4e0939c9b2af2e8f0c5149f1d0"
+          }
+        },
+        {
+          "id": "fi.dy.masa:malilib:0.16.3@jar",
+          "name": "MaLiLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 545403,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/malilib-fabric-1.20.1-0.16.3.jar",
+            "MD5": "007a02b4cbca762018d2a56237d36631"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mixintrace:1.1.1+1.17@jar",
+          "name": "MixinTrace",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36039,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/mixintrace-1.1.1+1.17.jar",
+            "MD5": "25673336ece740d8127ae7525bc0cd4f"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.15@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65491,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/modelfix-1.15-fabric.jar",
+            "MD5": "5503cf88c4ecb768330655258fa9b388"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.25.2+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 545175,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/modernfix-fabric-5.25.2+mc1.20.1.jar",
+            "MD5": "f4b88179db335a7e4f0234357b1a5ed1"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:morechathistory:1.3.0@jar",
+          "name": "More Chat History",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3546,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/morechathistory-1.3.0.jar",
+            "MD5": "1980ac8b5b66417091d101682af8865c"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.20.1-0.24.6@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 274523,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/moreculling-1.20.1-0.24.6.jar",
+            "MD5": "877f2e0587e9c49ecde5ef2712908f7c"
+          }
+        },
+        {
+          "id": "com.mt1006:nbt_ac:1.3.10@jar",
+          "name": "NBT Autocomplete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 234393,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/optionalon/NBTac-FABRIC-1.20.1-1.3.10.jar",
+            "MD5": "a1d03f4932e50ac14d59a486c081708e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:no-resource-pack-warnings:1.3.1@jar",
+          "name": "No Resource Pack Warnings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5002,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/no-resource-pack-warnings-1.3.1.jar",
+            "MD5": "4b69c707e2d57ece32dd520c1d7ad1c8"
+          }
+        },
+        {
+          "id": "generated.fabricmod:no-telemetry:1.10.0@jar",
+          "name": "No Telemetry",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 96316,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/no-telemetry-1.10.0.jar",
+            "MD5": "9ff179eafa0277f4fa13a10d595c226c"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 619812,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
+            "MD5": "62ebb770ad9e08008abf6df50a6a1aa7"
+          }
+        },
+        {
+          "id": "com.noxcrew:noxesium:1.0.3+9b339b0@jar",
+          "name": "Noxesium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 135973,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/noxesium-1.0.3.jar",
+            "MD5": "76ef6fe73db0f1dd1b2d3968d7f9e156"
+          }
+        },
+        {
+          "id": "fabric.cc.abbie:oldpotions:2.4@jar",
+          "name": "Old Potions",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 245040,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/oldpotions-2.4+1.20.1.jar",
+            "MD5": "673b83d5d40f2d373987aa2637282d54"
+          }
+        },
+        {
+          "id": "de.royzer:perspektive:1.3.3@jar",
+          "name": "Perspektive",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 34134,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/perspektive-1.3.3.jar",
+            "MD5": "0c2801853081325e5150ae7c4253a975"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.1-build.101@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77304,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+            "MD5": "0db2ef332dd00de8c64e34f192317118"
+          }
+        },
+        {
+          "id": "de.maxhenkel:resourcepackchecker:1.20.1-1.0.2@jar",
+          "name": "Server Resource Pack Checker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 44016,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/resourcepackchecker-1.20.1-1.0.2.jar",
+            "MD5": "4fce56502fa5326cf29408de3c76c277"
+          }
+        },
+        {
+          "id": "generated.fabricmod:serverpingerfixer:1.0.4@jar",
+          "name": "Server Pinger Fixer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7158,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/serverpingerfixer-1.0.4.jar",
+            "MD5": "9c94c8925a4535a6d28f8a38b05cd876"
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:4.0.4+1.20.1@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1215693,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/shulkerboxtooltip-fabric-4.0.4+1.20.1.jar",
+            "MD5": "f3dbda55b10626725456665abd633e93"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.9+mc1.20.1@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 370701,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/sodium-extra-0.5.9+mc1.20.1.jar",
+            "MD5": "cb941aa93cad7e9e238f56b6f75b1c10"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          }
+        },
+        {
+          "id": "com.github.getchoo.smoothboot:threadtweak:1.20.2-0.1.1@jar",
+          "name": "ThreadTweak",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 144848,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/threadtweak-fabric-1.20.2-0.1.1.jar",
+            "MD5": "3db999f5fc9b78fdbbf66d12461d49f5"
+          }
+        },
+        {
+          "id": "cc.abbie:timestamp_chat:2.4.0+1.19.1@jar",
+          "name": "Timestamp Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9718,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/timestamp-chat-fabric-2.4.0+1.19.1.jar",
+            "MD5": "a11cfadb56c4055e2365e2aca40dcc5c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ukulib:0.7.0+1.20@jar",
+          "name": "Ukulib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 239638,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/ukulib-0.7.0+1.20.jar",
+            "MD5": "747b0247c69327641b615a398e6dfb10"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1294234,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
+            "MD5": "b6960b2defbf8cb1b983cffd261089ba"
+          }
+        },
+        {
+          "id": "generated.fabricmod:yosbr:0.1.2@jar",
+          "name": "YOSBR",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17373,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/yosbr-0.1.2.jar",
+            "MD5": "9fcce225f25b6fd17921c87ff1c720f1"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.15.2+1.20.1@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 871089,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/fabricmods/required/zoomify-2.15.2+1.20.1.jar",
+            "MD5": "764f1cd15375affb70b5abb277847b4e"
+          }
+        },
+        {
+          "id": "isxander-main-menu-credits.json",
+          "name": "isxander-main-menu-credits.json",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/isxander-main-menu-credits.json",
+            "MD5": "8b2128215c659b2a9f041c415a10d3c3",
+            "path": "config/isxander-main-menu-credits.json"
+          }
+        },
+        {
+          "id": "appleskin.json5",
+          "name": "appleskin.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1315,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/yosbr/config/appleskin.json5",
+            "MD5": "23f118aa59e75bc6a1e06f0684401aa7",
+            "path": "config/yosbr/config/appleskin.json5"
+          }
+        },
+        {
+          "id": "profile1.txt",
+          "name": "profile1.txt",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/yosbr/config/custom-hud/profile1.txt",
+            "MD5": "91378239195169c1d6629e03c60f7f8c",
+            "path": "config/yosbr/config/custom-hud/profile1.txt"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/yosbr/config/immediatelyfast.json",
+            "MD5": "ae5071f3bfe4a2b5e2455096a2a4619e",
+            "path": "config/yosbr/config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "inventoryhud.json",
+          "name": "inventoryhud.json",
+          "type": "File",
+          "artifact": {
+            "size": 1702,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/yosbr/config/inventoryhud.json",
+            "MD5": "99a2567e0b95f9219d9a78da21c8ee7c",
+            "path": "config/yosbr/config/inventoryhud.json"
+          }
+        },
+        {
+          "id": "nvidium-config.json",
+          "name": "nvidium-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 32,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/yosbr/config/nvidium-config.json",
+            "MD5": "ea914fab72c61508f820918a488dccd4",
+            "path": "config/yosbr/config/nvidium-config.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 53,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/yosbr/config/sodium-extra-options.json",
+            "MD5": "70318c42d0aba9691a8fce077fd18c5f",
+            "path": "config/yosbr/config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "timestamp_chat.toml",
+          "name": "timestamp_chat.toml",
+          "type": "File",
+          "artifact": {
+            "size": 20,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/yosbr/config/timestamp_chat.toml",
+            "MD5": "5b95e3519ecb5914c7a8db66fa0cd45d",
+            "path": "config/yosbr/config/timestamp_chat.toml"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 243,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/yosbr/config/zoomify.json",
+            "MD5": "bd449f505a8e7960e76c1b127581c3cc",
+            "path": "config/yosbr/config/zoomify.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2010,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/config/yosbr/options.txt",
+            "MD5": "3bd253bcf57631978b40cbc860b9f4e4",
+            "path": "config/yosbr/options.txt"
+          }
+        },
+        {
+          "id": "!1986.zip",
+          "name": "!1986.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2233739,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/!1986.zip",
+            "MD5": "9405d349f75171e5cc278c456864db6e",
+            "path": "resourcepacks/!1986.zip"
+          }
+        },
+        {
+          "id": "!NetixFault.zip",
+          "name": "!NetixFault.zip",
+          "type": "File",
+          "artifact": {
+            "size": 73073358,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/!NetixFault.zip",
+            "MD5": "56b17a68cfa2195d4a5a7e5c487e6c01",
+            "path": "resourcepacks/!NetixFault.zip"
+          }
+        },
+        {
+          "id": "asdf.zip",
+          "name": "asdf.zip",
+          "type": "File",
+          "artifact": {
+            "size": 105161,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/asdf.zip",
+            "MD5": "accc089c60118f62e67b749541342414",
+            "path": "resourcepacks/asdf.zip"
+          }
+        },
+        {
+          "id": "Chat Reporting Helper.zip",
+          "name": "Chat Reporting Helper.zip",
+          "type": "File",
+          "artifact": {
+            "size": 57765,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/Chat%20Reporting%20Helper.zip",
+            "MD5": "66797c80ce6b9abf9ae63f0fab7f285c",
+            "path": "resourcepacks/Chat Reporting Helper.zip"
+          }
+        },
+        {
+          "id": "Daggers-1.1.0+1.14-latest.zip",
+          "name": "Daggers-1.1.0+1.14-latest.zip",
+          "type": "File",
+          "artifact": {
+            "size": 4520,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/Daggers-1.1.0+1.14-latest.zip",
+            "MD5": "0f4dfe795e34ba411457824c5038db37",
+            "path": "resourcepacks/Daggers-1.1.0+1.14-latest.zip"
+          }
+        },
+        {
+          "id": "FriendlyKorean_1.0_by_Irochi.zip",
+          "name": "FriendlyKorean_1.0_by_Irochi.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3842,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/FriendlyKorean_1.0_by_Irochi.zip",
+            "MD5": "55a2cf0c652c9124a1f8cf6f6bb4a30f",
+            "path": "resourcepacks/FriendlyKorean_1.0_by_Irochi.zip"
+          }
+        },
+        {
+          "id": "Irochi's Pick Addon - No Fishing Hook.zip",
+          "name": "Irochi's Pick Addon - No Fishing Hook.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2216,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/Irochi's%20Pick%20Addon%20-%20No%20Fishing%20Hook.zip",
+            "MD5": "595b4b5fe397ce176267905d35443f37",
+            "path": "resourcepacks/Irochi's Pick Addon - No Fishing Hook.zip"
+          }
+        },
+        {
+          "id": "Irochi's Pick Addon - No Horse Head.zip",
+          "name": "Irochi's Pick Addon - No Horse Head.zip",
+          "type": "File",
+          "artifact": {
+            "size": 25194,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/Irochi's%20Pick%20Addon%20-%20No%20Horse%20Head.zip",
+            "MD5": "a4353e908a20ccf1442e567b96dd4d31",
+            "path": "resourcepacks/Irochi's Pick Addon - No Horse Head.zip"
+          }
+        },
+        {
+          "id": "Irochi's Pick.zip",
+          "name": "Irochi's Pick.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2432,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/Irochi's%20Pick.zip",
+            "MD5": "02c40edff5c8cb6e72278e4c6822760c",
+            "path": "resourcepacks/Irochi's Pick.zip"
+          }
+        },
+        {
+          "id": "LowOnFire_1.20.1.zip",
+          "name": "LowOnFire_1.20.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 49395,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/LowOnFire_1.20.1.zip",
+            "MD5": "3d757e79fa0d5ecdb653a40b16607f4a",
+            "path": "resourcepacks/LowOnFire_1.20.1.zip"
+          }
+        },
+        {
+          "id": "Mc둥근모.zip",
+          "name": "Mc둥근모.zip",
+          "type": "File",
+          "artifact": {
+            "size": 461188,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/Mc%EB%91%A5%EA%B7%BC%EB%AA%A8.zip",
+            "MD5": "cb47d30db37d5a16dcaa69c104bfc98f",
+            "path": "resourcepacks/Mc둥근모.zip"
+          }
+        },
+        {
+          "id": "Shield Corrections [Regular].zip",
+          "name": "Shield Corrections [Regular].zip",
+          "type": "File",
+          "artifact": {
+            "size": 778108,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/Shield%20Corrections%20[Regular].zip",
+            "MD5": "cefb43b597c3f14559b6edd18b50bbc4",
+            "path": "resourcepacks/Shield Corrections [Regular].zip"
+          }
+        },
+        {
+          "id": "SodiumTranslations.zip",
+          "name": "SodiumTranslations.zip",
+          "type": "File",
+          "artifact": {
+            "size": 185135,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/SodiumTranslations.zip",
+            "MD5": "b6951cccf74af23fca844dcdbc888f46",
+            "path": "resourcepacks/SodiumTranslations.zip"
+          }
+        },
+        {
+          "id": "Subtly+Glowing+Ores+1.20.zip",
+          "name": "Subtly+Glowing+Ores+1.20.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14150,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/Subtly+Glowing+Ores+1.20.zip",
+            "MD5": "e70430264a68a554f5a501a31b87796c",
+            "path": "resourcepacks/Subtly+Glowing+Ores+1.20.zip"
+          }
+        },
+        {
+          "id": "XK redstone display 26.1.5.zip",
+          "name": "XK redstone display 26.1.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1406832,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/XK%20redstone%20display%2026.1.5.zip",
+            "MD5": "9f1c489fb5f91ca439d79787aa42cdaf",
+            "path": "resourcepacks/XK redstone display 26.1.5.zip"
+          }
+        },
+        {
+          "id": "Xray_Ultimate_1.21_v5.2.2.zip",
+          "name": "Xray_Ultimate_1.21_v5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1260184,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/Xray_Ultimate_1.21_v5.2.2.zip",
+            "MD5": "16072937524aeaa189ece4a6a04dda9c",
+            "path": "resourcepacks/Xray_Ultimate_1.21_v5.2.2.zip"
+          }
+        },
+        {
+          "id": "김유신.zip",
+          "name": "김유신.zip",
+          "type": "File",
+          "artifact": {
+            "size": 323115,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/resourcepacks/%EA%B9%80%EC%9C%A0%EC%8B%A0.zip",
+            "MD5": "ec25a098a1ad2157d6fa876532c9e7e8",
+            "path": "resourcepacks/김유신.zip"
+          }
+        },
+        {
+          "id": "complementary-reimagined.pw.toml",
+          "name": "complementary-reimagined.pw.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1637,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/shaderpacks/complementary-reimagined.pw.toml",
+            "MD5": "c90f52d1a29106ff75c1e69d015b7735",
+            "path": "shaderpacks/complementary-reimagined.pw.toml"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.8.1.zip",
+          "name": "ComplementaryReimagined_r5.8.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 546925,
+            "url": "https://j4won.github.io/Cosmos-Launcher-Repo/servers/craft-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+            "MD5": "8dbb914ed233d6e8183ce34eb26beaab",
+            "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
+          }
+        }
+      ]
+    },
     {
       "id": "DOSE.KR-1.21.4",
       "name": "DOSE.KR (Minecraft 1.21.4)",
@@ -2138,7 +3292,7 @@
       "id": "planetearth-1.20.1",
       "name": "planetearth (Minecraft 1.20.1)",
       "description": "planetearth Running Minecraft 1.20.1 (Fabric v0.19.3)",
-      "icon": null,
+      "icon": "data:image/png;base64,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",
       "version": "3.5.0",
       "address": "planetearth.kr",
       "minecraftVersion": "1.20.1",

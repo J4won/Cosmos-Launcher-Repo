@@ -1,0 +1,6 @@
+==Section:TopLeft==
+{{fps >= 60, "&a", fps < 30, "&c", "&e"}}{fps}&f FPS | &6{real_time:HH:m}
+&cX: {bx} &aY: {by} &bZ: {bz} &f| &e{facing}
+
+==Section:TopRight==
+&cIP: &e{ip} &f| &c핑: &e{ping} ms
